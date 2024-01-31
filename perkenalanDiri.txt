@@ -1,1 +1,4 @@
 Perkenalkan nama saya gemi sebagai murid dari SMK TI BAZMA sedang belajar node js
+
+
+ini data dirubah dari visual studio code
