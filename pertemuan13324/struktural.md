@@ -1,0 +1,36 @@
+- Menginstal npm init -y 👌
+- Selanjutnya ubah main pada pckage json dari index.js menjadi app.js 👌
+- Buat FIle app.js👌
+- Buat folder db/connection.js👌
+- Menginstall npm istall express body-parser mysql2 cors👌
+- Menginstall npm install nodemon --save -dev👌
+- Buat file dengan nama .gitignore👌
+- Buat database baru dengan nama smk_bazma_todo👌
+- Konfigurasi db/connection.js ke mysql 👌
+- Konfigurasi app.js👌
+- Buatlah table todo: id, title, description👌
+- id int primary key auto_increment,👌
+- title varchar(255) not null,👌
+- description text👌
+- Jalankan nodemon👌
+- konfigurasi membaca file todo rest api 👌
+- Menjalankan get todos with thunder client
+- Menambah data todo rest api👌
+- Menambah data todo rest api menggunakan thunder client👌
+- Setting Header = Accept = application
+- Membuat validation untuk mengirim data todo yang wajib diisi
+- title.required wajib diisi
+- title.main minimal 1 karakter
+- title.max max 255
+- Membuat Controllers
+    - Membuat File: TodoController.js
+        - Membuat const function getAllTodo 
+        - Membuat const function storeTodo
+        - Membuat const function updateTodo
+        - Membuat const function showTodo
+        - Membuat const function deleteTodo
+- Membuat routes 
+    - Membuat file TodoRoute.js
+    - Membuat get todo
+- Konfigurasi app.js
+    - Mengubah struktur kode todo => ['/api/todos] (Get, Post, Put, Patch, Delete, Get/:id)
